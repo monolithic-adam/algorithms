@@ -1,8 +1,6 @@
 //Sum of Digits / Digital Root
 
-class DigitalRoot {
-    func digitalRoot(of number: Int) -> Int {
-        guard number > 10 else { return number }
-        return digitalRoot(of: String(number).flatMap { Int(String($0)) }.reduce(0, +))
-    }
+func digitalRoot(of number: Int) -> Int {
+    guard number > 10 else { return number }
+    return digitalRoot(of: String(number).flatMap { Int(String($0)) }.reduce(0, +))
 }
