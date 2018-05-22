@@ -8,4 +8,4 @@
 
 # Leetcode
 ## Algorithms
-[Jewels and Stones](./Swift/LeetCode/JewelsAndStones.swift)
+* [Jewels and Stones](./Swift/LeetCode/JewelsAndStones.swift)
